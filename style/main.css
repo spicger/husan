@@ -1,0 +1,165 @@
+@import url('font.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.path-section-wrapper {
+    width: 100%;
+    height: 716px;
+    top: 758px;
+    background: #000000;
+
+
+}
+
+.path-title {
+    font-size: 56px;
+    font-family: 'Roboto Regular';
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.path-box {
+    padding-top: 148px;
+    padding-left: 85px;
+    display: flex;
+}
+
+.path-input {
+    width: 275px;
+    height: 40px;
+    border-radius: 9999px;
+    border: 1px;
+    background: #EAFA35;
+    position: relative;
+    top: -10px;
+
+
+}
+
+.path-button {
+    width: 227px;
+    height: 44px;
+    border-radius: 4px;
+    background: #EAFA35;
+
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 10 36px;
+    color: #0F0F0F;
+
+}
+
+.path-logo-boxxer {
+    display: flex;
+    margin-top: 70px;
+
+}
+
+.path-logo-box {
+    padding: 40px;
+}
+
+
+.logo-path-title {
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.logo-path-text {
+    margin-top: 36px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.job-section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 28px;
+}
+
+.main-title {
+   
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #0F0F0F;
+
+}
+
+.job-section {
+    padding: 0px 200px;
+    margin-top: 150px;
+    margin-bottom: 63px;
+}
+
+.job-boxxer {
+    width: 339px;
+    border: 2px solid black;
+}
+
+.job-box {
+    padding: 2px 2px 0 2px;
+}
+
+.women-img {
+    width: 100%;
+    border: 4px solid black;
+    border-radius: 12px 12px 0 0;
+    border-bottom: 1px solid black;
+}
+
+.job-boxxer-wrap {
+    padding: 23px 36px;
+}
+
+.job-boxxer-title {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto Regular';
+    line-height: 31px;
+    color: #191919;
+    margin-bottom: 11px;
+}
+
+.job-boxxer-text {
+    color: #191919;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.job-boxxer-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.job-boxxer-plus {
+    border: 2px solid #000000;
+    padding: 13px;
+}
+
+.job-boxxer-plus i {
+    font-size: 23px;
+}
